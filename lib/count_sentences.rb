@@ -15,8 +15,7 @@ end
   end
 
   def count_sentences
-    if count_sentences
     self.split(/\W+/)
-    binding.pry
+    
   end
 end
