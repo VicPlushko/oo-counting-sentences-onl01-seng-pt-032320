@@ -15,7 +15,7 @@ end
   end
 
   def count_sentences
-    self.split(/\W+/)
+    self.split()
     
   end
 end
