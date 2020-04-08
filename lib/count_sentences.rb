@@ -15,7 +15,7 @@ end
   end
 
   def count_sentences
-    self.split(/[.?!/])
+    self.split(/[.?!/]/)
     binding.pry
   end
 end
